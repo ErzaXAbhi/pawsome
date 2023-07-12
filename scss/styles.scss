@@ -1,0 +1,44 @@
+.navbar .btn-outline-light:hover {
+  color: var(--bs-dark);
+}
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-sticky {
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  background: url(../img/hero_4.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.form-container {
+  width: 200px;
+}
+
+@media (max-width: 1000px) {
+  .navbar {
+    background: var(--bs-dark);
+  }
+
+  .form-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  svg {
+    display: none;
+  }
+
+  .hero .text-container {
+    text-align: center;
+  }
+
+  .services h2 {
+    padding-top: 20px;
+  }
+}
